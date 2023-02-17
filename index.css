@@ -1,0 +1,245 @@
+
+/** foto y video */
+#nombre_empresa{
+    text-align: center;
+        color: red ;
+    font-size:40px;
+    margin: 0;
+  padding: 0;
+    display: inline;
+}
+#cajanombreempresa{
+    display: inline-flex;
+}
+#ranita{
+    height: 40px;
+    width: 40px;
+}
+#cajaempresa{
+    text-align: center;
+}
+#parrafolinea{
+    text-align: center;
+    color: aqua;
+    margin: 0;
+  padding: 0;
+    font-size: 20px;
+}
+
+
+#cabeza{
+    text-align: center;
+        color: red ;
+        z-index: 2;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    font-size: 100px;    
+}
+
+li {
+    color: deepskyblue;
+}
+
+#video{
+    position: fixed;
+  top: 50%; left: 50%;
+  z-index: 1;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  transform: translate(-50%, -50%);
+    
+}
+#piepagina{
+    text-align: center;
+    top: 130px;
+}
+
+div, h1, p, a, hr, img, ol, li, ul, h2, span, footer{
+    z-index: 2;
+    position: relative;
+     
+}
+#parrafoencaja{
+    display: inline;
+    color: white;
+        z-index: 2;
+    position: relative;
+    left: 30px;
+    font-size: 25px;
+}
+#lista{
+    
+}
+#cajalista{
+    display: inline-flex;
+    border:;
+    padding: 0,
+    width: 25%;
+    float: left;
+}
+#cajadeparrafo{
+    display: inline-flex;
+     border: ;
+    width: 75%;
+    float: 
+}
+.pagina{
+    color: aqua;
+    font-size: 18px;
+    border: solid red 2px;
+    background: green;
+}
+.saludos{
+    color: white;   
+}
+.insta{
+    height: 30px;
+    width: 30px;
+    padding: 25px;
+    z-index: 2;
+}
+
+/**.content {
+  position: relative;
+  top: 30%;
+  z-index: 2;
+  margin: 0 auto;
+  max-width: 720px;
+  text-align: center;
+}
+
+.content__heading {
+  margin-bottom: 24px;
+    color: red
+  font-size: 44px;
+}
+
+.content__teaser {
+  margin-bottom: 24px;
+    color: red
+  font-size: 22px;
+}
+
+.content__cta {
+  display: inline-block;
+  margin: 0;
+  padding: 12px 48px;
+  font-size: 22px;
+  text-decoration: none;
+  border: solid 4px rgb(255,60,100);
+}*/
+a, body, footer, h1, h2, p, div, li, ul, span {
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+@media only screen and (max-width:740px){
+   #cabeza{
+    text-align: center;
+        color: red ;
+        z-index: 2;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    font-size: 50px;    
+    }
+    #nombre_empresa{
+    text-align: center;
+        color: red ;
+    font-size:35px;
+    margin: 0;
+  padding: 0;
+    display: inline;
+    }
+#ranita{
+    height: 30px;
+    width: 30px;
+}
+#cajalista{
+    display: inline-flex;
+    border:;
+    padding: 0;
+    margin-left: 70px;
+    text-align: center;
+}
+}
+@media only screen and (max-width:280px){
+   #cabeza{
+    text-align: center;
+        color: red ;
+        z-index: 2;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    font-size: 40px;    
+    }
+    #nombre_empresa{
+    text-align: center;
+        color: red ;
+    font-size:25px;
+    margin: 0;
+  padding: 0;
+    display: inline;
+    }
+#ranita{
+    height: 30px;
+    width: 30px;
+}
+#cajalista{
+    display: inline-flex;
+    border:;
+    padding: 0;
+    margin-left: 35px;
+    text-align: center;
+}
+}
+@media only screen and (max-width:912px){
+   #cabeza{
+    text-align: center;
+        color: red ;
+        z-index: 2;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    font-size: 80px;    
+    }
+    #nombre_empresa{
+    text-align: center;
+        color: red ;
+    font-size:40px;
+    margin: 0;
+  padding: 0;
+    display: inline;
+    }
+#ranita{
+    height: 60px;
+    width: 60px;
+}
+#pagina
+    {
+    font-size: 60px;
+}
+.insta{
+    height: 50px;
+    width: 50px;
+    padding: 25px;
+    z-index: 2;
+} 
+   #parrafoencaja{
+    display: inline;
+    color: white;
+        z-index: 2;
+    position: relative;
+    left: 30px;
+    font-size: 35px;
+}
+  #parrafolinea{
+    text-align: center;
+    color: aqua;
+    margin: 0;
+  padding: 0;
+    font-size: 30px;
+}  
+}

@@ -1,0 +1,155 @@
+#parrafoServicio {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+#cajatitul{
+   text-align: center;
+        z-index: 2;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 70px;
+    color: brown;
+}
+
+
+#cajaimagen{
+    background-image: url("imagenes/lluvia%20matris.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 150px;  
+}
+.info{
+    padding: 15px;
+    color: aquamarine;
+}
+#cajainfo{
+    text-align: center;
+}
+header, body{
+    background: ;
+}
+.parrafos{
+    margin-top: 0px;
+    margin-bottom: 5px;
+    padding: 0px;
+    color: aquamarine;
+    font-size: 25px;
+}
+#caja_servicios{
+    display: inline;
+}
+/** lista ul li*/
+
+ul{
+    display: inline;
+list-style: none;
+  padding: 0;
+}
+h2{
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    color: aquamarine;
+}
+li{
+    color: aquamarine;
+    font-size: 25px;
+}
+hr{
+    color: aquamarine;
+}
+body{
+    background: black;
+    text-align: center;
+}
+.insta{
+    height: 20px;
+    width: 20px;
+    padding: 15px;
+}
+#piepagina{
+    text-align: center;
+    top: 130px;
+    height: 20px;
+}
+#abajo{
+    margin-top: 50px;
+}
+#ranita{
+    height: 45px;
+    width: 45px;
+}
+#cajaempresa{
+    text-align: center;
+}
+#cajanombreempresa{
+    display: inline-flex;
+}
+#nombre_empresa{
+    color: brown;
+    font-size: 50px;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+#especial{
+    font-size: 25px;
+    color: aquamarine;
+}
+*{
+    font-family: sans-serif;
+}
+@media only screen and (max-width:280px){
+    #nombre_empresa{
+    font-size: 38px;
+    }
+    #ranita{
+    height: 35px;
+    width: 35px;
+}
+    .info{
+    padding: 3px;
+    color: aquamarine;
+}
+    .parrafos{
+    margin-top: 0px;
+    margin-bottom: 5px;
+    padding: 0px;
+    color: aquamarine;
+    font-size: 20px;
+}
+   li{
+    color: aquamarine;
+    font-size: 20px;
+} 
+}
+@media only screen and (min-width:912px){
+    #nombre_empresa{
+    font-size: 55px;
+    }
+    #ranita{
+    height:50;
+    width: 50px;
+}
+    .info{
+    padding: 20px;
+    color: aquamarine;
+        font-size: 25px;
+}
+    .parrafos{
+    color: aquamarine;
+    font-size: 35px;
+}
+   li{
+    color: aquamarine;
+    font-size: 35px;
+} 
+    #especial{
+    font-size: 40px;
+    color: aquamarine;
+}
+    .insta{
+    height: 40px;
+    width: 40px;
+    padding: 25px;
+}
+}

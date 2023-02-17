@@ -1,0 +1,113 @@
+.insta{
+    padding: 0px;
+    width: 60px;
+    height: 60px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.info{
+    padding: 15px;
+    color: aquamarine;
+}
+#cajainfo{
+    text-align: center;
+}
+#piepagina{
+    text-align: center;
+}
+#cajaempresa{
+    text-align: center;
+}
+#ranita{
+    height: 40px;
+    width: 40px;
+}
+#cajanombreempresa{
+    display: inline-flex;
+}
+#nombre_empresa{
+    font-size: 50px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    color: brown;
+}
+body{
+    background: black;
+}
+.barrita{
+    width: 450px;
+}
+.data{
+    color: aquamarine;
+    font-size: 20px;
+}
+* {
+  box-sizing: border-box;
+}
+@media only screen and (max-width:280px){
+    #nombre_empresa{
+    font-size: 38px;
+    }
+    #ranita{
+    height: 35px;
+    width: 35px;
+}
+    .info{
+    padding: 3px;
+    color: aquamarine;
+}
+  .barrita{
+    width: 270px;
+}  
+} 
+@media only screen and (min-width:912px){
+    #nombre_empresa{
+    font-size: 60px;
+    }
+    #ranita{
+    height:50;
+    width: 50px;
+}
+    .info{
+    padding: 25px;
+    color: aquamarine;
+        font-size: 40px;
+}
+    .insta{
+    padding: 0px;
+    width: 80px;
+    height: 80px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+    .data{
+    color: aquamarine;
+    font-size: 30px;
+}
+}
+@media only screen and (max-width:740px){
+    #nombre_empresa{
+    font-size: 25px;
+}
+   #ranita{
+    height: 25px;
+    width: 25px;
+    }
+    .info{
+        padding: 15px;
+    }
+}
+@media only screen and (max-width:390px){
+   #cabeza{
+    text-align: center;
+        color: red ;
+        z-index: 2;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    font-size: 45px;    
+    }
+    .barrita{
+    width: 350px;
+}
+}

@@ -243,3 +243,20 @@ a, body, footer, h1, h2, p, div, li, ul, span {
     font-size: 30px;
 }  
 }
+@media only screen and (max-width:390px){
+   #cabeza{
+    text-align: center;
+        color: red ;
+        z-index: 2;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    font-size: 38px;    
+    }
+    .insta{
+    height: 40px;
+    width: 40px;
+    padding: 25px;
+    z-index: 2;
+} 
+}
